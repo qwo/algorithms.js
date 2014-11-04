@@ -10,5 +10,124 @@
 
 Classic algorithms and data structures implemented in JavaScript, you know... FOR SCIENCE.
 
-### [Documentation](https://github.com/felipernb/algorithms.js/wiki)
+### Installing
+```
+npm install --save algorithms
+```
+
+### Contents
+
+#### Data Structures
+
+```javascript
+require('algorithms/data_structures');
+// or
+require('algorithms').DataStructure;
+```
+
+* BST
+* Graph
+* HashTable
+* Heap
+ * MinHeap
+ * MaxHeap
+* LinkedList
+* PriorityQueue
+* Queue
+* Stack
+* Set (HashSet)
+* DisjointSetForest
+
+#### Graph algorithms
+
+```javascript
+require('algorithms/graph');
+// or
+require('algorithms').Graph;
+```
+
+* topologicalSort
+* eulerPath
+* depthFirstSearch
+* breadthFirstSearch
+
+##### Shortest path
+* bfsShortestPath
+* dijkstra
+* SPFA (Shortest Path Faster Algorithm)
+* bellmanFord
+* floydWarshall
+
+##### Minimum spanning tree
+* prim
+* kruskal
+
+#### Math algorithms
+
+```javascript
+require('algorithms/math');
+// or
+require('algorithms').Math;
+```
+
+* fibonacci
+* fisherYates
+* gcd (Greatest common divisor)
+* extendedEuclidean
+* newtonSqrt
+* reservoirSampling
+* fastPower
+* nextPermutation
+* powerSet
+* shannonEntropy
+
+#### Search algorithms
+
+```javascript
+require('algorithms/search');
+// or
+require('algorithms').Search;
+```
+
+* bfs (breadth-first search for binary trees)
+* binarySearch
+* dfs (depth-first search for binary trees)
+ * inOrder (default)
+ * preOrder
+ * postOrder
+
+#### Sorting algorithms
+
+```javascript
+require('algorithms/sorting');
+// or
+require('algorithms').Sorting;
+```
+
+* bubbleSort
+* countingSort
+* heapSort
+* quicksort
+* selectionSort
+* radixSort
+* insertionSort
+* shellSort
+
+#### String algorithms
+
+```javascript
+require('algorithms/string');
+// or
+require('algorithms').String;
+```
+
+* levenshtein
+* rabinKarp
+* knuthMorrisPratt
+* huffman
+ * encode
+ * decode
+* hamming
+* longestCommonSubsequence
+
 
